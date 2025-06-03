@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -154,6 +155,7 @@ table {
   display: flex;
   margin-left: 105px;
 }
+
 
 th {
   text-align: left
@@ -481,7 +483,6 @@ body {
 
 #header #helloworld {
   text-align: center;
-  display: none;
 }
 
 #header h4 {
@@ -893,6 +894,10 @@ input[type=text], .project_description, input[type=url] {
   box-sizing: border-box;
   font-size:16px;
 }
+input[type=url] {
+  cursor: pointer;
+}
+
 .project_description{
   max-width: 85%;
 }
