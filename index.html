@@ -119,7 +119,7 @@
                     Etudiant en BUT à L'I.U.T. de Lannion
                   </h4>
                   <p>
-                    Un homme grave charismatique, avec la joie de vivre, passionné d'informatique, de jeu de rôle et de jeux-vidéos. AVEC UN ENORME ZOB 
+                    Un passionné d'informatique, de jeux-vidéos et de jeu de rôle. Je suis une personne ayant la joie de vivre, qui recherche une alternance en développement logiciel.
                   </p>
                   </p>
                 </div>
@@ -151,8 +151,70 @@
                   </ul>
                 </div>
               </div>
+
+              <div class="break">
+                    <h3 style="text-align: center;">Education</h3>
+                    <section class="clearfix">
+                      <div class="project-section">
+                        <div class="project-container" style="background-color: #449d44;">
+                          <div class="project-img-container" onclick="document.getElementById('edu1').style.display='block'">
+                            <img src="./images/iut_lannion.jpg" alt="education image" height="135px">
+                          </div>
+                          <p class="project-title">IUT de Lannion</p>
+                        </div>
+                      
+                        <div class="project-container" style="background-color: #449d44;">
+                          <div class="project-img-container" onclick="document.getElementById('edu2').style.display='block'">
+                            <img src="./images/lycee_rabelais.jpg" alt="education image" height="135px">
+                          </div>
+                          <p class="project-title">Lycée Rabelais</p>
+                        </div>
+
+                        <div id="edu1" class="modal">
+                        <form class="modal-content animate">
+
+                        <div class="imgcontainer">
+                          <span onclick="document.getElementById('edu1').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                          <img src="images/icon/iut_lannion.jpg" alt="education" class="avatar">
+                          <h1 class="project_details" style="text-align:center">Détails de l'étblissement</h1>
+                        </div>
+
+                        <div class="container">
+                          <input type="text" placeholder="IUT de Lannion" name="uname" readonly>
+                          <textarea class="project_description" rows="2" placeholder="BUT Informatique - Parcours A : Développement d'applications" readonly></textarea>
+                          <a href="https://iut-lannion.univ-rennes.fr/informatique"><input type="url" placeholder="-> Lien vers le site de l'IUT <-"readonly></a>
+                          <a href="programme/but-info.pdf"><input type="url" placeholder="-> Lien vers le programme <-"readonly></a>
+                        </div>
+                      </form>
+                    </div>
+
+                      <div id="edu2" class="modal">
+                      <form class="modal-content animate">
+
+                        <div class="imgcontainer">
+                          <span onclick="document.getElementById('edu2').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                          <img src="images/icon/lycee_rabelais.jpg" alt="education" class="avatar">
+                          <h1 class="project_details" style="text-align:center">Détails de l'étblissement</h1>
+                        </div>
+
+                        <div class="container">
+                          <input type="text" placeholder="Lycée Rabelais" name="uname" readonly>
+                          <input type="text" placeholder="Baccalauréat Général"readonly>
+                          <textarea class="project_description" rows="3" placeholder="Spécialité : Mathématiques et NSI (Numériques et Sciences Informatiques) 
+Option : Mathématiques Expertes" readonly></textarea>
+                          <input type="text" placeholder="Mention Bien"readonly>
+                        </div>
+
+                      </form>
+                      </div>
+                    </section>
+              </div>
+
               <div class="break">
               </div>
+              <div class="break">
+              </div>
+
               <div class="contact-info">
                 <div class="g1">
                   <div class="item-box clearfix">

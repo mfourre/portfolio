@@ -844,6 +844,7 @@ body {
 }
 
 /* Project */
+
 .project-section {
   display: grid;
   grid-template-columns: auto auto auto;
