@@ -153,7 +153,7 @@
               </div>
 
               <div class="break">
-                    <h3 style="text-align: left;">Education</h3>
+                    <h3 style="text-align: left;">Formation</h3>
                     <section class="clearfix">
                       <div class="project-section">
                         <div class="project-container" style="background-color: #449d44;">
@@ -180,7 +180,7 @@
                         </div>
 
                         <div class="container">
-                          <input type="text" placeholder="IUT de Lannion" name="uname" readonly>
+                          <input type="text" placeholder="IUT de Lannion" name="uname">
                           <textarea class="project_description" rows="2" placeholder="BUT Informatique
 - Parcours A : Développement d'applications" readonly></textarea>
                           <a href="https://iut-lannion.univ-rennes.fr/informatique"><input type="url" placeholder="-> Lien vers le site de l'IUT <-"readonly></a>
@@ -350,6 +350,7 @@ Option : Mathématiques Expertes" readonly></textarea>
                       <input type="text" placeholder="Développement de l'application" name="uname" readonly>
                       <textarea class="project_description" rows="2" placeholder="- AC 11.01 Implémenter des conceptions simples
 - AC 11.03 Faire des essais et évaluer leurs résultats en regard des spécifications" readonly></textarea>
+                      <input type="text" placeholder="Jeu du snake" onclick="document.getElementById('projet1').style.display='block'" readonly>
                     </div>
                   </form>
                 </div>
@@ -367,6 +368,7 @@ Option : Mathématiques Expertes" readonly></textarea>
                       <input type="text" placeholder="Conception d'algorithmes" name="uname" readonly>
                       <textarea class="project_description" rows="2" placeholder="- AC 12.01 Analyser un problème avec méthode 
 - AC 12.02 Comparer des algorithmes pour des problèmes classiques" readonly></textarea>
+                      <input type="text" placeholder="Algorithme du snake" onclick="document.getElementById('projet2').style.display='block'" readonly>
                     </div>
                   </form>
                 </div>
@@ -385,6 +387,7 @@ Option : Mathématiques Expertes" readonly></textarea>
                       <textarea class="project_description" rows="5" placeholder="- AC 13.01 Identifier les différents composants d'un système numérique
 - AC 13.02 Utiliser les fonctionnalités de base d'un système multitâches / multiutilisateurs
 - AC 13.03 Installer et configurer un système d'exploitation et des outils de développement" readonly></textarea>
+                      <input type="text" placeholder="Espace docker" onclick="document.getElementById('projet3').style.display='block'" readonly>
                     </div>
                   </form>
                 </div>
@@ -402,6 +405,7 @@ Option : Mathématiques Expertes" readonly></textarea>
                       <input type="text" placeholder="Mise en place de base de données" name="uname" readonly>
                       <textarea class="project_description" rows="3" placeholder="- AC 14.01 Mettre à jour et interroger une base de données relationnelle 
 - AC 14.03 Concevoir une base de données relationnelle à partir d'un cahier des charges" readonly></textarea>
+                      <input type="text" placeholder="Création d'une base de données" onclick="document.getElementById('projet4').style.display='block'" readonly>
                     </div>
                   </form>
                 </div>
@@ -420,6 +424,7 @@ Option : Mathématiques Expertes" readonly></textarea>
                       <textarea class="project_description" rows="5" placeholder="- AC 15.01 Appréhender les besoins du client et de l’utilisateur
 - AC 15.02 Mettre en place les outils de gestion de projet - Utiliser un outil collaboratif
 - AC 15.03 Identifier les acteurs et les différentes phases d'un cycle de développement" readonly></textarea>
+                      <input type="text" placeholder="Création d'un site web" onclick="document.getElementById('projet5').style.display='block'" readonly>
                     </div>
                   </form>
                 </div>
@@ -436,9 +441,132 @@ Option : Mathématiques Expertes" readonly></textarea>
                     <div class="container">
                       <input type="text" placeholder="Travails en équipe" name="uname" readonly>
                       <textarea class="project_description" rows="1" placeholder="- AC 16.01 Appréhender l'écosystème numérique" readonly></textarea>
+                      <input type="text" placeholder="Environnement économique" onclick="document.getElementById('projet6').style.display='block'" readonly>
                     </div>
                   </form>
                 </div>
+
+
+              <div id="projet1" class="modal">
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('projet1').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/icon/snake_icon.jpeg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Détails du projet</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Jeu du snake" name="uname" readonly>
+                    <textarea class="project_description" rows="5" placeholder="L’objectif était de concevoir et développer un jeu Snake en langage C, jouable depuis le terminal. Le projet a progressé par versions hebdomadaires, chacune plus aboutie que la précédente, tout en respectant un cahier des charges évolutif, validé grâce à des cahiers de tests conçus à chaque étape." readonly></textarea>
+                    <a href="https://github.com/mfourre/jeudusnake"><input type="url" placeholder="-> Lien du jeu <-"readonly></a>
+                    <div style="text-align: center;">
+                      <h5 >Langage</h5>
+                      <img src="images/icon/C.png" alt="Langage C" width="80px">
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+
+              <div id="projet2" class="modal">
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('projet2').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/icon/snake_icon2.jpeg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Détails du projet</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Algorithme du snake" name="uname" readonly>
+                    <textarea class="project_description" rows="6" placeholder="J'ai conçu et développé en langage C un algorithme permettant au serpent de jouer automatiquement : il se déplace de manière optimisée vers les pommes, évite les obstacles et ne se touche pas. Le bon fonctionnement de l’algorithme a été vérifié à l’aide d’un cahier de tests établi en amont, en accord avec le cahier des charges" readonly></textarea>
+                    <a href="https://github.com/mfourre/algojeudusnake"><input type="url" placeholder="-> Lien du jeu avec l'algorithme <-"readonly></a>
+                    <div style="text-align: center;">
+                      <h5 >Langage</h5>
+                      <img src="images/icon/C.png" alt="Langage C" width="80px">
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+
+              <div id="projet3" class="modal">
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('projet3').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/icon/docker_icon.png" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Détails du projet</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Installation de poste Docker" name="uname" readonly>
+                    <textarea class="project_description" rows="6" placeholder="J'ai installé un poste de développement en mettant en place un workflow complet : identification des outils nécessaires, préparation des fichiers de test (données et configurations), définition d’un enchaînement logique des outils, puis automatisation du tout à l’aide de scripts pour faciliter la production et le développement." readonly></textarea>
+                    <div style="text-align: center;">
+                      <h5 >Langage</h5>
+                      <img src="images/icon/docker_logo.png" alt="Docker" width="80px">
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+
+              <div id="projet4" class="modal">
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('projet4').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/icon/bdd_icon.png" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Détails du projet</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Création d'une base de données" name="uname" readonly>
+                    <textarea class="project_description" rows="5" placeholder="J'ai conçu une base de données en modélisant les entités et relations sous forme de diagramme de classes. Ce diagramme a ensuite été traduit en un modèle relationnel, puis implémenté en Tutorial D pour assurer une gestion structurée et cohérente des données." readonly></textarea>
+                  </div>
+
+                </form>
+              </div>
+
+              <div id="projet5" class="modal">
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('projet5').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/icon/web_icon.jpg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Détails du projet</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Création d'un site des JO 2024" name="uname" readonly>
+                    <textarea class="project_description" rows="7" placeholder="Dans le cadre d’un projet en équipe, nous avons organisé le travail en répartissant les rôles et en définissant clairement les besoins. J’ai contribué à la création de l’arborescence, de la charte graphique, au maquettage, puis à la programmation avec un outil de versionning. J’ai personnellement réalisé l’une des pages du site dédié aux JO 2024, et participé à la présentation orale finale en équipe." readonly></textarea>
+                    <div style="text-align: center;">
+                      <h5 >Langages</h5>
+                      <img src="images/icon/HTML.png" alt="HTML" width="80px">
+                      <img src="images/icon/CSS.png" alt="CSS" width="80px">
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+
+              <div id="projet6" class="modal">
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('projet6').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/icon/eco_icon.png" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Détails du projet</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Environnement économique" name="uname" readonly>
+                    <textarea class="project_description" rows="7" placeholder="En équipe, nous avons organisé le travail avec des outils collaboratifs pour fixer les objectifs, répartir les tâches et planifier. J’ai participé à la recherche documentaire sur LEGO et sa politique RSE liée au développement durable. Après analyse des informations, nous avons rédigé une synthèse et préparé une présentation avec Canva et Google Docs, présentée ensuite à l’oral individuellement et en équipe." readonly></textarea>
+                  </div>
+
+                </form>
+              </div>
 
               </div>
 
