@@ -153,7 +153,7 @@
               </div>
 
               <div class="break">
-                    <h3 style="text-align: center;">Education</h3>
+                    <h3 style="text-align: left;">Education</h3>
                     <section class="clearfix">
                       <div class="project-section">
                         <div class="project-container" style="background-color: #449d44;">
@@ -176,12 +176,13 @@
                         <div class="imgcontainer">
                           <span onclick="document.getElementById('edu1').style.display='none'" class="close" title="Close PopUp">&times;</span>
                           <img src="images/icon/iut_lannion.jpg" alt="education" class="avatar">
-                          <h1 class="project_details" style="text-align:center">Détails de l'étblissement</h1>
+                          <h1 class="project_details" style="text-align:center">Détails de l'établissement</h1>
                         </div>
 
                         <div class="container">
                           <input type="text" placeholder="IUT de Lannion" name="uname" readonly>
-                          <textarea class="project_description" rows="2" placeholder="BUT Informatique - Parcours A : Développement d'applications" readonly></textarea>
+                          <textarea class="project_description" rows="2" placeholder="BUT Informatique
+- Parcours A : Développement d'applications" readonly></textarea>
                           <a href="https://iut-lannion.univ-rennes.fr/informatique"><input type="url" placeholder="-> Lien vers le site de l'IUT <-"readonly></a>
                           <a href="programme/but-info.pdf"><input type="url" placeholder="-> Lien vers le programme <-"readonly></a>
                         </div>
@@ -194,7 +195,7 @@
                         <div class="imgcontainer">
                           <span onclick="document.getElementById('edu2').style.display='none'" class="close" title="Close PopUp">&times;</span>
                           <img src="images/icon/lycee_rabelais.jpg" alt="education" class="avatar">
-                          <h1 class="project_details" style="text-align:center">Détails de l'étblissement</h1>
+                          <h1 class="project_details" style="text-align:center">Détails de l'établissement</h1>
                         </div>
 
                         <div class="container">
@@ -273,47 +274,172 @@ Option : Mathématiques Expertes" readonly></textarea>
                 <h3>
                   Compétences
                 </h3>
-                <div class="label label-default">
-                    <span>
-                      Développement d’applications
+                
+                <div class="project-container" onclick="document.getElementById('comp1').style.display='block'" style="max-width: 400px;">
+                  <div class="meter emerald">
+                    <span style="width: 95%">
+                      <span>
+                        Développement d’applications
+                      </span>
                     </span>
+                  </div>
                 </div>
-                <div class="meter emerald">
-                  <span style="width: 90%">
-                    <span>
-                      Conception d’algorithmes
+
+                <div class="project-container" onclick="document.getElementById('comp2').style.display='block'" style="max-width: 400px;">
+                  <div class="meter emerald">
+                    <span style="width: 95%">
+                      <span>
+                        Conception d’algorithmes
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </div>
-                <div class="meter emerald">
-                  <span style="width: 60%">
-                    <span>
-                      Installation de poste de travail
+
+                <div class="project-container" onclick="document.getElementById('comp3').style.display='block'" style="max-width: 400px;">
+                  <div class="meter emerald">
+                    <span style="width: 95%">
+                      <span>
+                        Installation de poste de travail
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </div>
-                <div class="meter emerald">
-                  <span style="width: 70%">
-                    <span>
-                      Mise en place de base de données
+
+                <div class="project-container" onclick="document.getElementById('comp4').style.display='block'" style="max-width: 400px;">
+                  <div class="meter emerald">
+                    <span style="width: 95%">
+                      <span>
+                        Mise en place de base de données
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </div>
-                <div class="meter emerald">
-                  <span style="width: 60%">
-                    <span>
-                      Analyse des besoins clients
+
+                <div class="project-container" onclick="document.getElementById('comp5').style.display='block'" style="max-width: 400px;">
+                  <div class="meter emerald">
+                    <span style="width: 95%">
+                      <span>
+                        Analyse des besoins clients
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </div>
-                <div class="meter emerald">
-                  <span style="width: 80%">
-                    <span>
-                      Travail en équipe
+
+                <div class="project-container" onclick="document.getElementById('comp6').style.display='block'" style="max-width: 400px;">
+                  <div class="meter emerald">
+                    <span style="width: 95%">
+                      <span>
+                        Travail en équipe
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </div>
+
                 <div class="break"></div>
+
+
+                <div id="comp1" class="modal">
+                  <form class="modal-content animate" style="margin-top: 15%; width: 50%;">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('comp1').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                      <div class="break"></div>
+                      <h1 class="project_details" style="text-align:center">Détails de la compétence</h1>
+                    </div>
+                  
+                    <div class="container">
+                      <input type="text" placeholder="Développement de l'application" name="uname" readonly>
+                      <textarea class="project_description" rows="2" placeholder="- AC 11.01 Implémenter des conceptions simples
+- AC 11.03 Faire des essais et évaluer leurs résultats en regard des spécifications" readonly></textarea>
+                    </div>
+                  </form>
+                </div>
+
+
+                <div id="comp2" class="modal">
+                  <form class="modal-content animate" style="margin-top: 15%; width: 50%;">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('comp2').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                      <div class="break"></div>
+                      <h1 class="project_details" style="text-align:center">Détails de la compétence</h1>
+                    </div>
+                  
+                    <div class="container">
+                      <input type="text" placeholder="Conception d'algorithmes" name="uname" readonly>
+                      <textarea class="project_description" rows="2" placeholder="- AC 12.01 Analyser un problème avec méthode 
+- AC 12.02 Comparer des algorithmes pour des problèmes classiques" readonly></textarea>
+                    </div>
+                  </form>
+                </div>
+
+
+                <div id="comp3" class="modal">
+                  <form class="modal-content animate" style="margin-top: 15%; width: 50%;">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('comp3').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                      <div class="break"></div>
+                      <h1 class="project_details" style="text-align:center">Détails de la compétence</h1>
+                    </div>
+                  
+                    <div class="container">
+                      <input type="text" placeholder="Installation de poste de travail" name="uname" readonly>
+                      <textarea class="project_description" rows="5" placeholder="- AC 13.01 Identifier les différents composants d'un système numérique
+- AC 13.02 Utiliser les fonctionnalités de base d'un système multitâches / multiutilisateurs
+- AC 13.03 Installer et configurer un système d'exploitation et des outils de développement" readonly></textarea>
+                    </div>
+                  </form>
+                </div>
+
+
+                <div id="comp4" class="modal">
+                  <form class="modal-content animate" style="margin-top: 15%; width: 50%;">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('comp4').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                      <div class="break"></div>
+                      <h1 class="project_details" style="text-align:center">Détails de la compétence</h1>
+                    </div>
+                  
+                    <div class="container">
+                      <input type="text" placeholder="Mise en place de base de données" name="uname" readonly>
+                      <textarea class="project_description" rows="3" placeholder="- AC 14.01 Mettre à jour et interroger une base de données relationnelle 
+- AC 14.03 Concevoir une base de données relationnelle à partir d'un cahier des charges" readonly></textarea>
+                    </div>
+                  </form>
+                </div>
+
+
+                <div id="comp5" class="modal">
+                  <form class="modal-content animate" style="margin-top: 15%; width: 50%;">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('comp5').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                      <div class="break"></div>
+                      <h1 class="project_details" style="text-align:center">Détails de la compétence</h1>
+                    </div>
+                  
+                    <div class="container">
+                      <input type="text" placeholder="Analyse des besoins clients" name="uname" readonly>
+                      <textarea class="project_description" rows="5" placeholder="- AC 15.01 Appréhender les besoins du client et de l’utilisateur
+- AC 15.02 Mettre en place les outils de gestion de projet - Utiliser un outil collaboratif
+- AC 15.03 Identifier les acteurs et les différentes phases d'un cycle de développement" readonly></textarea>
+                    </div>
+                  </form>
+                </div>
+
+
+                <div id="comp6" class="modal">
+                  <form class="modal-content animate" style="margin-top: 15%;">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('comp6').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                      <div class="break"></div>
+                      <h1 class="project_details" style="text-align:center">Détails de la compétence</h1>
+                    </div>
+                  
+                    <div class="container">
+                      <input type="text" placeholder="Travails en équipe" name="uname" readonly>
+                      <textarea class="project_description" rows="1" placeholder="- AC 16.01 Appréhender l'écosystème numérique" readonly></textarea>
+                    </div>
+                  </form>
+                </div>
+
               </div>
 
               <div class="g1">
@@ -369,7 +495,6 @@ Option : Mathématiques Expertes" readonly></textarea>
               </div>
             </section>
           </div>
-
           <!-- Fin Compétences -->
           <!-- ----------------------------------------------------------------------------------- -->
           <!-- Projets -->
@@ -430,9 +555,13 @@ Option : Mathématiques Expertes" readonly></textarea>
 
                   <div class="container">
                     <input type="text" placeholder="Jeu du snake" name="uname" readonly>
-                    <textarea class="project_description" rows="7" placeholder="L’objectif était de concevoir et développer un jeu Snake en langage C, jouable depuis le terminal. Le projet a progressé par versions hebdomadaires, chacune plus aboutie que la précédente, tout en respectant un cahier des charges évolutif, validé grâce à des cahiers de tests conçus à chaque étape." readonly></textarea>
+                    <textarea class="project_description" rows="5" placeholder="L’objectif était de concevoir et développer un jeu Snake en langage C, jouable depuis le terminal. Le projet a progressé par versions hebdomadaires, chacune plus aboutie que la précédente, tout en respectant un cahier des charges évolutif, validé grâce à des cahiers de tests conçus à chaque étape." readonly></textarea>
                     <a href="https://github.com/mfourre/jeudusnake"><input type="url" placeholder="-> Lien du jeu <-"readonly></a>
                     <input type="text" placeholder="Développement d'applications" readonly>
+                    <div style="text-align: center;">
+                      <h5 >Langage</h5>
+                      <img src="images/icon/C.png" alt="Langage C" width="80px">
+                    </div>
                   </div>
 
                 </form>
@@ -449,9 +578,13 @@ Option : Mathématiques Expertes" readonly></textarea>
 
                   <div class="container">
                     <input type="text" placeholder="Algorithme du snake" name="uname" readonly>
-                    <textarea class="project_description" rows="8" placeholder="J'ai conçu et développé en langage C un algorithme permettant au serpent de jouer automatiquement : il se déplace de manière optimisée vers les pommes, évite les obstacles et ne se touche pas. Le bon fonctionnement de l’algorithme a été vérifié à l’aide d’un cahier de tests établi en amont, en accord avec le cahier des charges" readonly></textarea>
+                    <textarea class="project_description" rows="6" placeholder="J'ai conçu et développé en langage C un algorithme permettant au serpent de jouer automatiquement : il se déplace de manière optimisée vers les pommes, évite les obstacles et ne se touche pas. Le bon fonctionnement de l’algorithme a été vérifié à l’aide d’un cahier de tests établi en amont, en accord avec le cahier des charges" readonly></textarea>
                     <a href="https://github.com/mfourre/algojeudusnake"><input type="url" placeholder="-> Lien du jeu avec l'algorithme <-"readonly></a>
                     <input type="text" placeholder="Conception d'algorithme" readonly>
+                    <div style="text-align: center;">
+                      <h5 >Langage</h5>
+                      <img src="images/icon/C.png" alt="Langage C" width="80px">
+                    </div>
                   </div>
 
                 </form>
@@ -468,8 +601,12 @@ Option : Mathématiques Expertes" readonly></textarea>
 
                   <div class="container">
                     <input type="text" placeholder="Installation de poste Docker" name="uname" readonly>
-                    <textarea class="project_description" rows="7" placeholder="J'ai installé un poste de développement en mettant en place un workflow complet : identification des outils nécessaires, préparation des fichiers de test (données et configurations), définition d’un enchaînement logique des outils, puis automatisation du tout à l’aide de scripts pour faciliter la production et le développement." readonly></textarea>
+                    <textarea class="project_description" rows="6" placeholder="J'ai installé un poste de développement en mettant en place un workflow complet : identification des outils nécessaires, préparation des fichiers de test (données et configurations), définition d’un enchaînement logique des outils, puis automatisation du tout à l’aide de scripts pour faciliter la production et le développement." readonly></textarea>
                     <input type="text" placeholder="Installation de poste de travail" readonly>
+                    <div style="text-align: center;">
+                      <h5 >Langage</h5>
+                      <img src="images/icon/docker_logo.png" alt="Docker" width="80px">
+                    </div>
                   </div>
 
                 </form>
@@ -486,7 +623,7 @@ Option : Mathématiques Expertes" readonly></textarea>
 
                   <div class="container">
                     <input type="text" placeholder="Création d'une base de données" name="uname" readonly>
-                    <textarea class="project_description" rows="6" placeholder="J'ai conçu une base de données en modélisant les entités et relations sous forme de diagramme de classes. Ce diagramme a ensuite été traduit en un modèle relationnel, puis implémenté en Tutorial D pour assurer une gestion structurée et cohérente des données." readonly></textarea>
+                    <textarea class="project_description" rows="5" placeholder="J'ai conçu une base de données en modélisant les entités et relations sous forme de diagramme de classes. Ce diagramme a ensuite été traduit en un modèle relationnel, puis implémenté en Tutorial D pour assurer une gestion structurée et cohérente des données." readonly></textarea>
                     <input type="text" placeholder="Mise en place d'une base de données" readonly>
                   </div>
 
@@ -504,8 +641,13 @@ Option : Mathématiques Expertes" readonly></textarea>
 
                   <div class="container">
                     <input type="text" placeholder="Création d'un site des JO 2024" name="uname" readonly>
-                    <textarea class="project_description" rows="9" placeholder="Dans le cadre d’un projet en équipe, nous avons organisé le travail en répartissant les rôles et en définissant clairement les besoins. J’ai contribué à la création de l’arborescence, de la charte graphique, au maquettage, puis à la programmation avec un outil de versionning. J’ai personnellement réalisé l’une des pages du site dédié aux JO 2024, et participé à la présentation orale finale en équipe." readonly></textarea>
+                    <textarea class="project_description" rows="7" placeholder="Dans le cadre d’un projet en équipe, nous avons organisé le travail en répartissant les rôles et en définissant clairement les besoins. J’ai contribué à la création de l’arborescence, de la charte graphique, au maquettage, puis à la programmation avec un outil de versionning. J’ai personnellement réalisé l’une des pages du site dédié aux JO 2024, et participé à la présentation orale finale en équipe." readonly></textarea>
                     <input type="text" placeholder="Analyse des besoins clients" readonly>
+                    <div style="text-align: center;">
+                      <h5 >Langages</h5>
+                      <img src="images/icon/HTML.png" alt="HTML" width="80px">
+                      <img src="images/icon/CSS.png" alt="CSS" width="80px">
+                    </div>
                   </div>
 
                 </form>
@@ -522,7 +664,7 @@ Option : Mathématiques Expertes" readonly></textarea>
 
                   <div class="container">
                     <input type="text" placeholder="Environnement économique" name="uname" readonly>
-                    <textarea class="project_description" rows="10" placeholder="En équipe, nous avons organisé le travail avec des outils collaboratifs pour fixer les objectifs, répartir les tâches et planifier. J’ai participé à la recherche documentaire sur LEGO et sa politique RSE liée au développement durable. Après analyse des informations, nous avons rédigé une synthèse et préparé une présentation avec Canva et Google Docs, présentée ensuite à l’oral individuellement et en équipe." readonly></textarea>
+                    <textarea class="project_description" rows="7" placeholder="En équipe, nous avons organisé le travail avec des outils collaboratifs pour fixer les objectifs, répartir les tâches et planifier. J’ai participé à la recherche documentaire sur LEGO et sa politique RSE liée au développement durable. Après analyse des informations, nous avons rédigé une synthèse et préparé une présentation avec Canva et Google Docs, présentée ensuite à l’oral individuellement et en équipe." readonly></textarea>
                     <input type="text" placeholder="Travail d'équipe" readonly>
                   </div>
 
@@ -545,7 +687,7 @@ Option : Mathématiques Expertes" readonly></textarea>
                       Adresse
                     </h4>
                     <p>
-                      21 Rue Camille Guérin, Saint Brieuc (22)
+                      17 Rue Camille Guérin, Saint Brieuc (22)<br/>CROUS Rue Édouard Branly, 22300 Lannion
                     </p>
                   </div>
                 </div>
@@ -560,7 +702,7 @@ Option : Mathématiques Expertes" readonly></textarea>
                       E-mail
                     </h4>
                     <p>
-                      mael.fourre@gmail.com<br />andy.maelf@gmail.com
+                      mael.fourre@gmail.com<br/>andy.maelf@gmail.com
                     </p>
                   </div>
                 </div>
